@@ -24,6 +24,7 @@
                 
                 <input type="text" class="form-control" name="cari" placeholder="Cari Data">
               </div>
+               <button><a href="kelahiran">BACK</a></button>
                 </div>
               </div>
             </div>
@@ -60,7 +61,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">no_akta</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="no_akta" placeholder="no_akta">
+                    <input type="text" class="form-control" name="no_akta" placeholder="no_akta" required>
                   </div>
                 </div>
 
@@ -69,7 +70,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">nama_anak</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="nama_anak" placeholder="nama_anak">
+                    <input type="text" class="form-control" name="nama_anak" placeholder="nama_anak" required>
                   </div>
                 </div>
 
@@ -78,7 +79,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">nama_ortu</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="nama_ortu" placeholder="nama_ortu">
+                    <input type="text" class="form-control" name="nama_ortu" placeholder="nama_ortu" required>
                   </div>
                 </div>
 

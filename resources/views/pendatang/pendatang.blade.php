@@ -24,6 +24,7 @@
                 
                 <input type="text" class="form-control" name="cari" placeholder="Cari Data">
               </div>
+               <button><a href="pendatang">BACK</a></button>
                 </div>
               </div>
             </div>
@@ -59,14 +60,14 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">tgl_pendatang</label>
 
                   <div class="col-sm-10">`
-                    <input type="date" class="form-control" name="tgl_pendatang" placeholder="tgl_pendatang">
+                    <input type="date" class="form-control" name="tgl_pendatang" placeholder="tgl_pendatang" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">alamat_pendatang</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="alamat_pendatang" placeholder="...........">
+                    <input type="text" class="form-control" name="alamat_pendatang" placeholder="..........." required>
                   </div>
                 </div>
 
@@ -75,7 +76,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">keterangan</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="keterangan" placeholder="............">
+                    <input type="text" class="form-control" name="keterangan" placeholder="............" required>
                   </div>
                 </div>
 

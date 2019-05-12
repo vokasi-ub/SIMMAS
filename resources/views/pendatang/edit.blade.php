@@ -25,21 +25,21 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">Tanggal_pendatang</label>
 
                   <div class="col-sm-10">
-                    <input type="date" class="form-control" name="tgl_pendatang" value="{{ $p->tgl_pendatang }}" placeholder="Email">
+                    <input type="date" class="form-control" name="tgl_pendatang" value="{{ $p->tgl_pendatang }}" placeholder="Email" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">alamat_pendatang</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="alamat_pendatang" value="{{ $p->alamat_pendatang }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="alamat_pendatang" value="{{ $p->alamat_pendatang }}" placeholder="Password" required>
                   </div>
                 </div>
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">keterangan</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="keterangan" value="{{ $p->keterangan }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="keterangan" value="{{ $p->keterangan }}" placeholder="Password" required>
                   </div>
                 </div>
              

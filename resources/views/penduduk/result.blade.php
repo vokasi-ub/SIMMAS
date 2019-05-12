@@ -6,7 +6,7 @@
     <!-- Content Header (Page header) -->
     <!-- Content Header (Page header) -->
     <section class="content-header">
-<h1>Data Kategori</h1>
+<h1>Data Penduduk</h1>
 <br>
      
     

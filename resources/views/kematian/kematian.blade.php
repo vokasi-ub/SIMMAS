@@ -24,6 +24,7 @@
                 
                 <input type="text" class="form-control" name="cari" placeholder="Cari Data">
               </div>
+               <button><a href="kematian">BACK</a></button>
                 </div>
               </div>
             </div>
@@ -70,7 +71,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">hari_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="hari_meninggal" placeholder="hari_meninggal">
+                    <input type="text" class="form-control" name="hari_meninggal" placeholder="hari_meninggal" required>
                   </div>
                 </div>
 
@@ -79,7 +80,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">tanggal_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="date" class="form-control" name="tanggal_meninggal" placeholder="tanggal_meninggal">
+                    <input type="date" class="form-control" name="tanggal_meninggal" placeholder="tanggal_meninggal" required>
                   </div>
                 </div>
 
@@ -88,7 +89,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">tempat_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="tempat_meninggal" placeholder="tempat_meninggal">
+                    <input type="text" class="form-control" name="tempat_meninggal" placeholder="tempat_meninggal" required>
                   </div>
                 </div>
 
@@ -98,7 +99,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">sebab_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="sebab_meninggal" placeholder="sebab_meninggal">
+                    <input type="text" class="form-control" name="sebab_meninggal" placeholder="sebab_meninggal" required>
                   </div>
                 </div>
               </div>

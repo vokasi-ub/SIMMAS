@@ -26,6 +26,8 @@
                 
                       <input type="text" class="form-control" name="cari" placeholder="Cari Data">
                   </div>
+                  <button><a href="penduduk">BACK</a></button>
+
                 </div>
               </div>
             </div>
@@ -44,6 +46,7 @@
                       <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-info">
                 Tambah Data
               </button><br><br>
+              
 
           
 
@@ -62,23 +65,23 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">Nama penduduk</label>
 
                   <div class="col-sm-10">`
-                    <input type="text" class="form-control" name="nama_penduduk" placeholder="........">
+                    <input type="text" class="form-control" name="nama_penduduk" placeholder="........" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">agama</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="agama" placeholder=".......">
+                    <input type="text" class="form-control" name="agama" placeholder="......." required>
                   </div>
                 </div>
 
 
              <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">pendidikan_terakhir</label>
+                  <label for="inputPassword3" class="col-sm-2 control-label">P.terakhir</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="pendidikan_terakhir" placeholder="......">
+                    <input type="text" class="form-control" name="pendidikan_terakhir" placeholder="......"required>
                   </div>
                 </div>
 

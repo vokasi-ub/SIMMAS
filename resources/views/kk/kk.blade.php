@@ -24,6 +24,7 @@
                 
                 <input type="text" class="form-control" name="cari" placeholder="Cari Data">
               </div>
+                <button><a href="kk">BACK</a></button>
                 </div>
               </div>
             </div>
@@ -59,14 +60,14 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">Nama kk</label>
 
                   <div class="col-sm-10">`
-                    <input type="text" class="form-control" name="nama_kk" placeholder="......">
+                    <input type="text" class="form-control" name="nama_kk" placeholder="......" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">alamat</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="alamat_kk" placeholder="....">
+                    <input type="text" class="form-control" name="alamat_kk" placeholder="...." required>
                   </div>
                 </div>
 

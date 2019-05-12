@@ -18,21 +18,21 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NA</li>
        <li>
-          <a href="penduduk">
+          <a href="{{url('penduduk')}}">
             <i class="fa fa-dashboard"></i> <span>PENDUDUK</span>
            
           </a>
         </li>
 
          <li>
-          <a href="kk">
+          <a href="{{url('kk')}}">
             <i class="fa fa-dashboard"></i> <span>KEPALA KELUARGA</span>
            
           </a>
         </li>
 
          <li>
-          <a href="pendatang">
+          <a href="{{url('pendatang')}}">
             <i class="fa fa-dashboard"></i> <span>PENDATANG</span>
            
           </a>
@@ -40,31 +40,34 @@
 
 
          <li>
-          <a href="kelahiran">
+          <a href="{{url('kelahiran')}}">
             <i class="fa fa-dashboard"></i> <span>KELAHIRAN</span>
            
           </a>
         </li>
 
          <li>
-          <a href="kematian">
+          <a href="{{url('kematian')}}">
             <i class="fa fa-dashboard"></i> <span>KEMATIAN</span>
            
           </a>
         </li>
 
-        <br>
-
+        <li>
+<br>
         <!--ini buat log out ya -->
+       <button type="button" class="btn btn-danger">
         <i class="fa fa-logout"   "fa fa-dashboard"></i> <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        <i class="mdi-hardware-keyboard-tab"></i>{{ __('LOGOUT') }}
+                                        <i class="fa fa-sign-out"></i> {{ __('LOGOUT') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+                                    </button>
+                                  </li>
       </ul>
     
     </section>

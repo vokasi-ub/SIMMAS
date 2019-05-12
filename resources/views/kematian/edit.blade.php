@@ -36,21 +36,21 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">hari_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="hari_meninggal" value="{{ $p->hari_meninggal }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="hari_meninggal" value="{{ $p->hari_meninggal }}" placeholder="Password" required>
                   </div>
                 </div>
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">tanggal_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="date" class=" form-control " ass="form-control" name="tanggal_meninggal" value="{{ $p->tanggal_meninggal }}" placeholder="Password">
+                    <input type="date" class=" form-control " ass="form-control" name="tanggal_meninggal" value="{{ $p->tanggal_meninggal }}" placeholder="Password" required>
                   </div>
                 </div>
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">tempat_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="tempat_meninggal" value="{{ $p->tempat_meninggal }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="tempat_meninggal" value="{{ $p->tempat_meninggal }}" placeholder="Password" required>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@
                   <label for="inputPassword3" class="col-sm-2 control-label">sebab_meninggal</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="sebab_meninggal" value="{{ $p->sebab_meninggal }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="sebab_meninggal" value="{{ $p->sebab_meninggal }}" placeholder="Password" required>
                   </div>
                 </div>
       

@@ -25,34 +25,34 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">no_akta</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="no_akta" value="{{ $p->no_akta }}" placeholder="Email">
+                    <input type="text" class="form-control" name="no_akta" value="{{ $p->no_akta }}" placeholder="Email" required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">nama_anak</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="nama_anak" value="{{ $p->nama_anak }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="nama_anak" value="{{ $p->nama_anak }}" placeholder="Password" required>
                   </div>
                 </div>
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">nama_ortu</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="nama_ortu" value="{{ $p->nama_ortu }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="nama_ortu" value="{{ $p->nama_ortu }}" placeholder="Password" required>
                   </div>
                 </div>
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">jenis_kelamin</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="jenis_kelamin" value="{{ $p->jenis_kelamin }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="jenis_kelamin" value="{{ $p->jenis_kelamin }}" placeholder="Password" required>
                   </div>
                 </div>
 
                
                  <div class="form-group">
-                  <label class="col-sm-2">No KK</label>
+                  <label for="inputPassword3" class="col-sm-2 control-label">NO KK</label>
                   <div class="col-sm-10">
                   <select class="form-control" name="no_kk">
                     @foreach ($datakk as $row)

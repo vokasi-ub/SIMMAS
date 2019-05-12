@@ -25,14 +25,14 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">nama_kk</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" name="nama_kk" value="{{ $p->nama_kk }}" placeholder="...">
+                    <input type="text" class="form-control" name="nama_kk" value="{{ $p->nama_kk }}" placeholder="..." required>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">alamat_kk</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class=" form-control " ass="form-control" name="alamat_kk" value="{{ $p->alamat_kk }}" placeholder="Password">
+                    <input type="text" class=" form-control " ass="form-control" name="alamat_kk" value="{{ $p->alamat_kk }}" placeholder="Password" required>
                   </div>
                 </div>
                  
